@@ -3,7 +3,7 @@
   inset: 0;
   z-index: 1;
   isolation: isolate;
-  --surfer-width: clamp(96px, 10vw, 128px);
+  --surfer-width: clamp(72px, 7.5vw, 96px);
 }
 
 .pixel-waves__canvas {
@@ -94,5 +94,5 @@
 }
 
 @media (max-width: 480px) {
-  .pixel-waves { --surfer-width: clamp(56px, 16vw, 72px); }
+  .pixel-waves { --surfer-width: clamp(42px, 12vw, 54px); }
 }
